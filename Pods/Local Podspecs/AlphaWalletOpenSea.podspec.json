@@ -1,0 +1,42 @@
+{
+  "name": "AlphaWalletOpenSea",
+  "version": "1.0.0",
+  "summary": "AlphaWallet OpenSea functionality",
+  "description": "OpenSea functionality",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hwee-Boon Yar": "hboon@motionobj.com"
+  },
+  "social_media_url": "https://twitter.com/hboon",
+  "homepage": "https://github.com/AlphaWallet/alpha-wallet-ios/tree/master/modules/AlphaWalletOpenSea",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "4.0",
+  "source": {
+    "git": "git@github.com:AlphaWallet/alpha-wallet-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "modules/AlphaWalletOpenSea/AlphaWalletOpenSea/**/*.{h,m,swift}",
+  "pod_target_xcconfig": {
+    "SWIFT_OPTIMIZATION_LEVEL": "-Owholemodule"
+  },
+  "dependencies": {
+    "AlphaWalletAddress": [
+
+    ],
+    "AlphaWalletCore": [
+
+    ],
+    "PromiseKit": [
+
+    ],
+    "SwiftyJSON": [
+      "5.0.0"
+    ]
+  },
+  "swift_version": "4.0"
+}

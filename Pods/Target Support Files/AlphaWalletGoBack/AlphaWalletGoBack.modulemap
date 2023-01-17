@@ -1,0 +1,6 @@
+framework module AlphaWalletGoBack {
+  umbrella header "AlphaWalletGoBack-umbrella.h"
+
+  export *
+  module * { export * }
+}

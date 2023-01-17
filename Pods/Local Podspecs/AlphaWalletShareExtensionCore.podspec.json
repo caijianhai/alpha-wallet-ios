@@ -1,0 +1,32 @@
+{
+  "name": "AlphaWalletShareExtensionCore",
+  "version": "1.0.0",
+  "summary": "Shared code extracted from share extension",
+  "description": "This is code used in both share extension and main app that is extension safe, avoids compilation warning: ld: linking against a dylib which is not safe for use in application extensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vladyslav Shepitko": "vladyslav.shepitko@gmail.com"
+  },
+  "homepage": "https://github.com/AlphaWallet/alpha-wallet-ios/tree/master/modules/AlphaWalletShareExtensionCore",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "git@github.com:AlphaWallet/alpha-wallet-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "modules/AlphaWalletShareExtensionCore/AlphaWalletShareExtensionCore/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "AlphaWalletShareExtensionCore": [
+      "modules/AlphaWalletShareExtensionCore/AlphaWalletShareExtensionCore/**/*.{graphql,json}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_OPTIMIZATION_LEVEL": "-Owholemodule"
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module AlphaWalletTrackAPICalls {
+  umbrella header "AlphaWalletTrackAPICalls-umbrella.h"
+
+  export *
+  module * { export * }
+}

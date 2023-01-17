@@ -1,0 +1,42 @@
+{
+  "name": "AlphaWalletENS",
+  "version": "1.0.0",
+  "summary": "AlphaWallet ENS functionality",
+  "description": "ENS functionality",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hwee-Boon Yar": "hboon@motionobj.com"
+  },
+  "social_media_url": "https://twitter.com/hboon",
+  "homepage": "https://github.com/AlphaWallet/alpha-wallet-ios/tree/master/modules/AlphaWalletENS",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "4.0",
+  "source": {
+    "git": "git@github.com:AlphaWallet/alpha-wallet-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "modules/AlphaWalletENS/AlphaWalletENS/**/*.{h,m,swift}",
+  "pod_target_xcconfig": {
+    "SWIFT_OPTIMIZATION_LEVEL": "-Owholemodule"
+  },
+  "dependencies": {
+    "AlphaWalletAddress": [
+
+    ],
+    "PromiseKit": [
+
+    ],
+    "AlphaWalletWeb3": [
+
+    ],
+    "AlphaWalletCore": [
+
+    ]
+  },
+  "swift_version": "4.0"
+}

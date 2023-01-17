@@ -1,0 +1,6 @@
+framework module AlphaWalletAddress {
+  umbrella header "AlphaWalletAddress-umbrella.h"
+
+  export *
+  module * { export * }
+}

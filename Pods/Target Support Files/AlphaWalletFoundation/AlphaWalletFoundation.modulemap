@@ -1,0 +1,6 @@
+framework module AlphaWalletFoundation {
+  umbrella header "AlphaWalletFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

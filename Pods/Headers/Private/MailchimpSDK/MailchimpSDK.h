@@ -1,0 +1,1 @@
+../../../MailchimpSDK/Sources/MailchimpSDK/MailchimpSDK/MailchimpSDK.h

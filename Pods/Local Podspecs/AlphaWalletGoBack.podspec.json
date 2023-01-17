@@ -1,0 +1,28 @@
+{
+  "name": "AlphaWalletGoBack",
+  "version": "1.0.0",
+  "summary": "Alpha Wallet GoBack library",
+  "description": "Lightweight library representing the AlphaWalletGoBack with its functionality",
+  "homepage": "https://github.com/AlphaWallet/alpha-wallet-ios/tree/master/modules/AlphaWalletGoBack",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hwee-Boon Yar": "hboon@motionobj.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "4.0",
+  "source": {
+    "git": "git@github.com:AlphaWallet/alpha-wallet-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "modules/AlphaWalletGoBack/AlphaWalletGoBack/**/*.{h,m}",
+  "pod_target_xcconfig": {
+    "SWIFT_OPTIMIZATION_LEVEL": "-Owholemodule"
+  },
+  "frameworks": "UIKit",
+  "swift_version": "4.0"
+}

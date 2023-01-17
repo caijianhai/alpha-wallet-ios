@@ -1,0 +1,29 @@
+{
+  "name": "AlphaWalletTrackAPICalls",
+  "version": "1.0.0",
+  "summary": "Track API calls",
+  "description": "Track API calls",
+  "homepage": "https://github.com/AlphaWallet/alpha-wallet-ios/tree/master/modules/AlphaWalletTrackAPICalls",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hwee-Boon Yar": "hboon@motionobj.com"
+  },
+  "social_media_url": "https://twitter.com/hboon",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "4.2",
+  "source": {
+    "git": "git@github.com:AlphaWallet/alpha-wallet-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "modules/AlphaWalletTrackAPICalls/AlphaWalletTrackAPICalls/**/*.{h,m,swift}",
+  "pod_target_xcconfig": {
+    "SWIFT_OPTIMIZATION_LEVEL": "-Owholemodule"
+  },
+  "frameworks": "Foundation",
+  "swift_version": "4.2"
+}
